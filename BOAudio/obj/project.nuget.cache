@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "sTIc7UmWXHaL3rd4PE1uDpPYPnfJfc+iIrya0hZNfZgCB2XzLeDvXGlHU5RkPL3jVOoR24sdenKcORIHB+YjAg==",
+  "success": true,
+  "projectFilePath": "D:\\BOAudio\\BOAudio\\BOAudio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\microsoft.toolkit.diagnostics\\7.1.2\\microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\mimetypemapofficial\\1.0.17\\mimetypemapofficial.1.0.17.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\system.text.json\\6.0.4\\system.text.json.6.0.4.nupkg.sha512",
+    "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

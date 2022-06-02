@@ -1,0 +1,10 @@
+D:\BOAudio\BOAudio\obj\Debug\netstandard2.0\BOAudio.csproj.AssemblyReference.cache
+D:\BOAudio\BOAudio\obj\Debug\netstandard2.0\BOAudio.GeneratedMSBuildEditorConfig.editorconfig
+D:\BOAudio\BOAudio\obj\Debug\netstandard2.0\BOAudio.AssemblyInfoInputs.cache
+D:\BOAudio\BOAudio\obj\Debug\netstandard2.0\BOAudio.AssemblyInfo.cs
+D:\BOAudio\BOAudio\obj\Debug\netstandard2.0\BOAudio.csproj.CoreCompileInputs.cache
+D:\BOAudio\BOAudio\bin\Debug\netstandard2.0\BOAudio.deps.json
+D:\BOAudio\BOAudio\bin\Debug\netstandard2.0\BOAudio.dll
+D:\BOAudio\BOAudio\bin\Debug\netstandard2.0\BOAudio.pdb
+D:\BOAudio\BOAudio\obj\Debug\netstandard2.0\BOAudio.dll
+D:\BOAudio\BOAudio\obj\Debug\netstandard2.0\BOAudio.pdb

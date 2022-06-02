@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{FF2E3517-1965-480E-B205-B1621F6234D5}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Xbox_Windows_UWP</RootNamespace>
+    <AssemblyName>Xbox_Windows_UWP</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <OutputPath>bin\ARM64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Images\Cover.png" />
+    <Content Include="Assets\Tracks\01. Jack Wall - Cold War.mp3" />
+    <Content Include="Assets\Tracks\02. Jack Wall - Bell%27s Theme.mp3" />
+    <Content Include="Assets\Tracks\03. Jack Wall - 1981.mp3" />
+    <Content Include="Assets\Tracks\04. Jack Wall &amp; Big Giant Circles - Rising Tide.mp3" />
+    <Content Include="Assets\Tracks\05. Jack Wall - New Beginnings.mp3" />
+    <Content Include="Assets\Tracks\06. Jack Wall - No Higher Duty.mp3" />
+    <Content Include="Assets\Tracks\07. Jack Wall - Amsterdam.mp3" />
+    <Content Include="Assets\Tracks\08. Jack Wall - Interrogation.mp3" />
+    <Content Include="Assets\Tracks\09. Jack Wall - Turkey.mp3" />
+    <Content Include="Assets\Tracks\10. Jack Wall - Trazbon Airfield.mp3" />
+    <Content Include="Assets\Tracks\11. Jack Wall - Give Us A Name.mp3" />
+    <Content Include="Assets\Tracks\12. Jack Wall - Fracture Jaw.mp3" />
+    <Content Include="Assets\Tracks\13. Jack Wall - Camp Haskins.mp3" />
+    <Content Include="Assets\Tracks\14. Jack Wall - Vietnamese Village.mp3" />
+    <Content Include="Assets\Tracks\15. Jack Wall &amp; Jim Lordeman - Move To Extract.mp3" />
+    <Content Include="Assets\Tracks\16. Jack Wall - Flying Assault.mp3" />
+    <Content Include="Assets\Tracks\17. Jack Wall - Stakeout.mp3" />
+    <Content Include="Assets\Tracks\18. Jack Wall - Tracking Volkov.mp3" />
+    <Content Include="Assets\Tracks\19. Jack Wall - The Informant-Find Briefcase.mp3" />
+    <Content Include="Assets\Tracks\20. Jack Wall - Escape.mp3" />
+    <Content Include="Assets\Tracks\21. Jack Wall - Cuban Crisis.mp3" />
+    <Content Include="Assets\Tracks\22. Jack Wall - Palace Intrigue.mp3" />
+    <Content Include="Assets\Tracks\23. Jack Wall - Searching For The Nuke Room.mp3" />
+    <Content Include="Assets\Tracks\24. Jack Wall - Room 27B.mp3" />
+    <Content Include="Assets\Tracks\25. Jack Wall - Rooftop Fray.mp3" />
+    <Content Include="Assets\Tracks\26. Jack Wall - Amerika Town.mp3" />
+    <Content Include="Assets\Tracks\27. Jack Wall &amp; Jim Lordeman - Main Street, U.S.S.R..mp3" />
+    <Content Include="Assets\Tracks\28. Jack Wall - Hacking The Command Center.mp3" />
+    <Content Include="Assets\Tracks\29. Jack Wall - Exit Amerika.mp3" />
+    <Content Include="Assets\Tracks\30. Jack Wall - Confronting Hudson.mp3" />
+    <Content Include="Assets\Tracks\31. Jack Wall - Yamantau Ridge.mp3" />
+    <Content Include="Assets\Tracks\32. Jack Wall - Satcom.mp3" />
+    <Content Include="Assets\Tracks\33. Jack Wall - Through The Tunnels.mp3" />
+    <Content Include="Assets\Tracks\34. Jack Wall - Surveying.mp3" />
+    <Content Include="Assets\Tracks\35. Jack Wall - Seize The Server.mp3" />
+    <Content Include="Assets\Tracks\36. Jack Wall - Bell On The Inside.mp3" />
+    <Content Include="Assets\Tracks\37. Jack Wall - Searching.mp3" />
+    <Content Include="Assets\Tracks\38. Jack Wall - Undercover.mp3" />
+    <Content Include="Assets\Tracks\39. Jack Wall - Comrades In Arms.mp3" />
+    <Content Include="Assets\Tracks\40. Jack Wall - Lockdown.mp3" />
+    <Content Include="Assets\Tracks\41. Jack Wall - Intel Escape.mp3" />
+    <Content Include="Assets\Tracks\42. Jack Wall - Prisoner.mp3" />
+    <Content Include="Assets\Tracks\43. Jack Wall - Ruong Lua.mp3" />
+    <Content Include="Assets\Tracks\44. Jack Wall &amp; Jim Lordeman - Jungle Haze.mp3" />
+    <Content Include="Assets\Tracks\45. Jack Wall - Ruong Lua Hai.mp3" />
+    <Content Include="Assets\Tracks\46. Jack Wall - Who Am I.mp3" />
+    <Content Include="Assets\Tracks\47. Jack Wall - Ruong Lua Ba.mp3" />
+    <Content Include="Assets\Tracks\48. Jack Wall - This Ends Now.mp3" />
+    <Content Include="Assets\Tracks\49. Jack Wall - The Siege.mp3" />
+    <Content Include="Assets\Tracks\50. Jack Wall - Final Retribution.mp3" />
+    <Content Include="Assets\Tracks\51. Jack Wall - Comrade.mp3" />
+    <Content Include="Assets\Tracks\Cover.png" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Views\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AppCenter.Analytics">
+      <Version>4.5.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+      <Version>6.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.13</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Services.Store.Engagement">
+      <Version>10.1901.28001</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Animations">
+      <Version>7.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.UI.Xaml">
+      <Version>2.7.1</Version>
+    </PackageReference>
+    <PackageReference Include="System.Text.Json">
+      <Version>6.0.4</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BOAudio\BOAudio.csproj">
+      <Project>{f0c904ec-ca8f-46bf-ac07-21d049091266}</Project>
+      <Name>BOAudio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\fluentui.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Animations\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Controls\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Services\" />
+    <Folder Include="StateTriggers\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
