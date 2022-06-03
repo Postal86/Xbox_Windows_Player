@@ -8,3 +8,13 @@ D:\BOAudio\BOAudio\bin\Debug\netstandard2.0\BOAudio.dll
 D:\BOAudio\BOAudio\bin\Debug\netstandard2.0\BOAudio.pdb
 D:\BOAudio\BOAudio\obj\Debug\netstandard2.0\BOAudio.dll
 D:\BOAudio\BOAudio\obj\Debug\netstandard2.0\BOAudio.pdb
+D:\github\Xbox_Windows_Player\BOAudio\bin\Debug\netstandard2.0\BOAudio.deps.json
+D:\github\Xbox_Windows_Player\BOAudio\bin\Debug\netstandard2.0\BOAudio.dll
+D:\github\Xbox_Windows_Player\BOAudio\bin\Debug\netstandard2.0\BOAudio.pdb
+D:\github\Xbox_Windows_Player\BOAudio\obj\Debug\netstandard2.0\BOAudio.csproj.AssemblyReference.cache
+D:\github\Xbox_Windows_Player\BOAudio\obj\Debug\netstandard2.0\BOAudio.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\Xbox_Windows_Player\BOAudio\obj\Debug\netstandard2.0\BOAudio.AssemblyInfoInputs.cache
+D:\github\Xbox_Windows_Player\BOAudio\obj\Debug\netstandard2.0\BOAudio.AssemblyInfo.cs
+D:\github\Xbox_Windows_Player\BOAudio\obj\Debug\netstandard2.0\BOAudio.csproj.CoreCompileInputs.cache
+D:\github\Xbox_Windows_Player\BOAudio\obj\Debug\netstandard2.0\BOAudio.dll
+D:\github\Xbox_Windows_Player\BOAudio\obj\Debug\netstandard2.0\BOAudio.pdb

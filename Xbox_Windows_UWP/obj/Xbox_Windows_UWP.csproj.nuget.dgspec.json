@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BOAudio\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj": {}
+    "D:\\github\\Xbox_Windows_Player\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj": {}
   },
   "projects": {
-    "D:\\BOAudio\\BOAudio\\BOAudio.csproj": {
+    "D:\\github\\Xbox_Windows_Player\\BOAudio\\BOAudio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BOAudio\\BOAudio\\BOAudio.csproj",
+        "projectUniqueName": "D:\\github\\Xbox_Windows_Player\\BOAudio\\BOAudio.csproj",
         "projectName": "BOAudio",
-        "projectPath": "D:\\BOAudio\\BOAudio\\BOAudio.csproj",
+        "projectPath": "D:\\github\\Xbox_Windows_Player\\BOAudio\\BOAudio.csproj",
         "packagesPath": "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\",
-        "outputPath": "D:\\BOAudio\\BOAudio\\obj\\",
+        "outputPath": "D:\\github\\Xbox_Windows_Player\\BOAudio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -82,14 +82,14 @@
         }
       }
     },
-    "D:\\BOAudio\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj": {
+    "D:\\github\\Xbox_Windows_Player\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BOAudio\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj",
+        "projectUniqueName": "D:\\github\\Xbox_Windows_Player\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj",
         "projectName": "Xbox_Windows_UWP",
-        "projectPath": "D:\\BOAudio\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj",
+        "projectPath": "D:\\github\\Xbox_Windows_Player\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj",
         "packagesPath": "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\",
-        "outputPath": "D:\\BOAudio\\Xbox_Windows_UWP\\obj\\",
+        "outputPath": "D:\\github\\Xbox_Windows_Player\\Xbox_Windows_UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -111,8 +111,8 @@
         "frameworks": {
           "uap10.0.17763": {
             "projectReferences": {
-              "D:\\BOAudio\\BOAudio\\BOAudio.csproj": {
-                "projectPath": "D:\\BOAudio\\BOAudio\\BOAudio.csproj"
+              "D:\\github\\Xbox_Windows_Player\\BOAudio\\BOAudio.csproj": {
+                "projectPath": "D:\\github\\Xbox_Windows_Player\\BOAudio\\BOAudio.csproj"
               }
             }
           }

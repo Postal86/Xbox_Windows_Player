@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UmeV2s7PrLgaETRhzyWvTSpQ76qC1Ch/X7MPa5QBb+e8hHga+gSuD1d/ODcLsT/gs5Sit7bUWM2NeddXhcHW7w==",
+  "dgSpecHash": "RRUJmDEco2vv7EJFEo6R+r5D2wBkXcz7nmTaoylRrPP0lhy2ic4eC/9QcJJdIPptTTb87ohPfvnLuhOJUXczew==",
   "success": true,
-  "projectFilePath": "D:\\BOAudio\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj",
+  "projectFilePath": "D:\\github\\Xbox_Windows_Player\\Xbox_Windows_UWP\\Xbox_Windows_UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\microsoft.appcenter\\4.5.1\\microsoft.appcenter.4.5.1.nupkg.sha512",
     "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\microsoft.appcenter.analytics\\4.5.1\\microsoft.appcenter.analytics.4.5.1.nupkg.sha512",

@@ -1,19 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.ApplicationModel;
+﻿using AmbientAndNotAmbientSounds.Services;
+using AmbientAndNotAmbientSounds.ViewModels;
+using AmbientAndNotAmbientSounds.Constants;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Toolkit.Diagnostics;
+using System;
 using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using Windows.ApplicationModel.Core;
+using Windows.Storage;
+using Windows.System.Profile;
+using Windows.UI;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Threading.Tasks;
+using System.Net.Http;
+using AmbientAndNotAmbientSounds.Factories;
 
 namespace Xbox_Windows_UWP
 {
@@ -22,14 +24,38 @@ namespace Xbox_Windows_UWP
     /// </summary>
     sealed partial class App : Application
     {
+        private static readonly bool _isTenFootPc = false;
+        private IServiceProvider? _serviceProvider;
+
         /// <summary>
-        /// Initializes the singleton application object.  This is the first line of authored code
-        /// executed, and as such is the logical equivalent of main() or WinMain().
+        /// Initializes  the singleton application  object.
+
         /// </summary>
         public App()
         {
             this.InitializeComponent();
-            this.Suspending += OnSuspending;
+
+            if (IsTenFoot)
+            {
+                RequiresPointerMode = ApplicationRequiresPointerMode.WhenRequested;
+
+                FocusVisualKind = FocusVisualKind.Reveal;
+            }
+
+            SetAppRequestedTheme();
+        }
+
+        public static bool IsTenFoot => AnalyticsInfo.VersionInfo.DeviceFamily == "Windows.Xbox" || _isTenFootPc;
+
+        public static Frame? AppFrame { get; private set; }
+
+
+        public static IServiceProvider Services
+        {
+            get
+            {
+                IServiceProvider? serviceProvider = ((App))
+            }
         }
 
         /// <summary>

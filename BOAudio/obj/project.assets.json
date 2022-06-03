@@ -757,11 +757,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BOAudio\\BOAudio\\BOAudio.csproj",
+      "projectUniqueName": "D:\\github\\Xbox_Windows_Player\\BOAudio\\BOAudio.csproj",
       "projectName": "BOAudio",
-      "projectPath": "D:\\BOAudio\\BOAudio\\BOAudio.csproj",
+      "projectPath": "D:\\github\\Xbox_Windows_Player\\BOAudio\\BOAudio.csproj",
       "packagesPath": "C:\\Users\\a.mezvrishvili\\.nuget\\packages\\",
-      "outputPath": "D:\\BOAudio\\BOAudio\\obj\\",
+      "outputPath": "D:\\github\\Xbox_Windows_Player\\BOAudio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
